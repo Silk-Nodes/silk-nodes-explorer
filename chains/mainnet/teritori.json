@@ -1,7 +1,13 @@
 {
   "chain_name": "teritori",
-  "api": ["https://rest.mainnet.teritori.com","https://api.teritori.nodestake.top"],
-  "rpc": ["https://rpc.mainnet.teritori.com","https://rpc.teritori.nodestake.top"],
+  "api": [
+    "https://rest.mainnet.teritori.com",
+    "https://teritori.api.silknodes.io"
+  ],
+  "rpc": [
+    "https://rpc.mainnet.teritori.com",
+    "https://teritori.rpc.silknodes.io"
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",
   "coin_type": "118",

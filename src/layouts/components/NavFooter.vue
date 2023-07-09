@@ -5,21 +5,17 @@
   >
     <div class="flex flex-1">
       &copy;&nbsp;
-      {{ new Date().getFullYear() }}&nbsp;
-      Made With&nbsp;
-      <img src="../../assets/images/heart.svg" />&nbsp;
-      By&nbsp;
+      {{ new Date().getFullYear() }}&nbsp; Made With&nbsp;
+      <img src="../../assets/images/heart.svg" />&nbsp; By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://ping.pub"
+        href="https://silknodes.io"
         target="_blank"
         rel="noopener noreferrer"
-        >Ping.pub</a
+        >Silk Nodes</a
       >
     </div>
-    <div
-      class="hidden md:!block"
-    >
+    <div class="hidden md:!block">
       <a
         class="link link-primary no-underline mr-4"
         href="https://github.com/ping-pub/explorer/blob/master/LICENSE"
@@ -28,7 +24,7 @@
       >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://github.com/Silk-Nodes/silk-nodes-explorer"
         target="noopener noreferrer"
         >Github</a
       >

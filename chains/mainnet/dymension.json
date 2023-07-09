@@ -1,0 +1,20 @@
+{
+  "chain_name": "dymension",
+  "coingecko": "",
+  "api": ["https://dymension.api.silknodes.io"],
+  "rpc": ["https://dymension.rpc.silknodes.io"],
+  "snapshot_provider": "",
+  "coin_type": "118",
+  "sdk_version": "0.45.10",
+  "addr_prefix": "dym",
+  "logo": "/logos/dymensionRound.png",
+  "assets": [
+    {
+      "base": "udym",
+      "symbol": "DYM",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/dymensionRound.png"
+    }
+  ]
+}

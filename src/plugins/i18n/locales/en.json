@@ -21,12 +21,12 @@
     "links": "Links"
   },
   "pages": {
-    "title": "Ping Dashboard",
+    "title": "Silk Nodes Dashboard",
     "title_all": "404",
     "tag": "Beta",
     "tag_all": "Page Not Found",
-    "slogan": "Ping Dashboard is not just an explorer but also a wallet and more ... 🛠",
-    "description": "Cosmos Ecosystem Blockchains 🚀",
+    "slogan": "Silk Nodes Dashboard is a fork of Ping.Pub by Silk Nodes Validators,",
+    "description": " we use this fork to offer explorer support for chains in Testnet and/or early development.",
     "search_placeholder": "Search Chain",
     "description_all": "We couldn't find the page you are looking for.",
     "btn_index": "Back to Home"

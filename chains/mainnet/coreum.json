@@ -1,0 +1,24 @@
+{
+  "chain_name": "coreum",
+  "coingecko": "coreum",
+  "api": [
+    "https://coreum.api.silknodes.io",
+    "https://rest-coreum.ecostake.com"
+  ],
+  "rpc": ["https://coreum.rpc.silknodes.io", "https://rpc-coreum.ecostake.com"],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.14",
+  "coin_type": "990",
+  "min_tx_fee": "250000",
+  "addr_prefix": "coreum",
+  "logo": "/logos/coreum.png",
+  "assets": [
+    {
+      "base": "ucore",
+      "symbol": "CORE",
+      "exponent": "6",
+      "coingecko_id": "coreum",
+      "logo": "/logos/coreum.png"
+    }
+  ]
+}

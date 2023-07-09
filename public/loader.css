@@ -4,8 +4,8 @@
 
 .loading-logo {
   position: absolute;
-  inset-block-start: 40%;
-  inset-inline-start: calc(50% - 75px);
+  inset-block-start: 33%;
+  inset-inline-start: calc(47% - 75px);
 }
 
 .pre-loading {

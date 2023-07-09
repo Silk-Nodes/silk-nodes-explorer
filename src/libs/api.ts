@@ -1,7 +1,4 @@
-import {
-  type RequestRegistry,
-  adapter,
-} from './registry';
+import { type RequestRegistry, adapter } from './registry';
 
 export const DEFAULT: RequestRegistry = {
   auth_params: { url: '/cosmos/auth/v1beta1/params', adapter },
@@ -20,7 +17,10 @@ export const DEFAULT: RequestRegistry = {
     adapter,
   },
   bank_supply: { url: '/cosmos/bank/v1beta1/supply', adapter },
-  bank_supply_by_denom: { url: '/cosmos/bank/v1beta1/supply/{denom}', adapter },
+  bank_supply_by_denom: {
+    url: '/cosmos/bank/v1beta1/supply/{denom}',
+    adapter,
+  },
   distribution_params: { url: '/cosmos/distribution/v1beta1/params', adapter },
   distribution_community_pool: {
     url: '/cosmos/distribution/v1beta1/community_pool',

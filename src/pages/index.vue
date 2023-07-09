@@ -21,36 +21,84 @@ const chains = computed(() => {
     return Object.values(dashboard.chains);
   }
 });
-const chainStore = useBlockchain()
+const chainStore = useBlockchain();
 </script>
 <template>
   <div class="">
-    <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
-      <div class="w-16 rounded-full">
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
-          viewBox="0 0 150.000000 132.000000"
-          preserveAspectRatio="xMidYMid meet">
-          <g transform="translate(0.000000,132.000000) scale(0.100000,-0.100000)"
-          :fill="chainStore.current?.themeColor||'#666CFF'" class=" dark:invert" stroke="none">
-            <path d="M500 1310 l-125 -5 -182 -315 c-100 -173 -182 -321 -182 -329 -1 -7
-            81 -159 181 -337 l183 -324 372 0 371 0 186 325 c102 179 186 330 186 337 0 7
-            -82 157 -182 335 l-183 323 -250 -2 c-137 -1 -306 -5 -375 -8z m588 -454 c61
-            -106 112 -197 112 -201 0 -4 -50 -95 -111 -201 l-112 -194 -231 0 -231 0 -105
-            181 c-58 100 -109 190 -114 200 -6 14 17 63 104 213 l112 196 232 0 231 0 113
-            -194z"/>
-            <path d="M591 1001 l-54 -6 -87 -150 -88 -150 176 -3 c97 -1 181 -1 187 2 9 3
-            165 267 183 308 4 9 -233 7 -317 -1z"/>
-            <path d="M872 824 l-90 -159 36 -66 c113 -201 147 -258 153 -251 8 8 179 302
-            179 307 0 2 -37 68 -83 147 -46 78 -88 151 -94 162 -9 16 -24 -5 -101 -140z"/>
-            <path d="M360 625 c0 -7 148 -263 172 -297 l19 -28 186 0 c101 0 183 3 181 8
-            -1 4 -43 78 -93 165 l-90 157 -187 0 c-104 0 -188 -2 -188 -5z"/>
+    <div
+      class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2"
+    >
+      <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+      <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="200px"
+        height="200px"
+        viewBox="0 0 240 240"
+        enable-background="new 0 0 240 240"
+        xml:space="preserve"
+      >
+        <g id="Background_xA0_Image_1_"></g>
+        <g id="Ellipse_6_copy_6_3_" enable-background="new    ">
+          <g id="Ellipse_6_copy_6">
+            <g>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                fill="#002E6E"
+                d="M184.702,114.069c0-8.493,0-16.985,0-25.477
+				c0-3.5-1.89-6.865-4.912-8.617c-9.69-5.618-19.377-11.239-29.069-16.859c-6.116-3.544-12.232-7.092-18.348-10.638
+				c-3.561-2.063-8.018-5.6-12.31-5.6c-3.963,0-7.838,3.006-11.142,4.921c-6.505,3.774-13.01,7.545-19.518,11.317
+				c-9.69,5.62-19.379,11.241-29.073,16.859c-3.019,1.752-4.909,5.117-4.909,8.617c0,6.381,0,12.763,0,19.144
+				c-11.58-1.792-18.784-5.106-18.784-11.272c0-13.236,17.683-23.853,34.364-23.853l-0.451-0.008
+				c-38.464,0-51.322,10.771-51.322,23.995c0,51.875,181.549,1.923,181.549,47.588c0,9.18-7.739,15.61-32.431,23.809l-0.126,0.053
+				c24.6,0,55.618-5.174,55.618-23.861C223.84,126.836,207.605,118.292,184.702,114.069z M161.489,86.638l-35.859,20.809
+				c-2.606,1.512-6.831,1.512-9.437,0L80.333,86.638c-2.606-1.512-2.606-3.963,0-5.476l35.859-20.809
+				c2.606-1.512,6.831-1.512,9.437,0l35.859,20.809C164.096,82.674,164.096,85.125,161.489,86.638z"
+              />
+            </g>
           </g>
-        </svg>
-      </div>
-      <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
+        </g>
+        <g id="Ellipse_6_copy_6_2_" enable-background="new    ">
+          <g id="Ellipse_6_copy_6_1_">
+            <g>
+              <path
+                fill="#00B69D"
+                d="M73.248,168.165c4.236,2.456,8.473,4.912,12.709,7.368v-41.719c-4.333,0.281-8.583,0.504-12.709,0.641
+				V168.165z M79.289,160.126c1.315,0,2.382,1.068,2.382,2.387c0,1.319-1.067,2.388-2.382,2.388c-1.316,0-2.383-1.068-2.383-2.388
+				C76.905,161.194,77.972,160.126,79.289,160.126z M105.02,186.589c0.912,0.529,1.823,1.057,2.735,1.586
+				c2.917,1.69,6.437,4.366,9.974,5.278v-62.276c-4.229,0.383-8.477,0.771-12.709,1.143V186.589z M111.208,178.984
+				c1.316,0,2.382,1.068,2.382,2.387s-1.066,2.388-2.382,2.388s-2.383-1.069-2.383-2.388S109.893,178.984,111.208,178.984z
+				 M120.905,130.892v62.833c3.669-0.377,7.23-3.096,10.3-4.876c6.505-3.771,13.01-7.545,19.516-11.316
+				c9.692-5.62,19.379-11.24,29.069-16.856c2.663-1.545,4.099-3.715,4.604-6.032c0.195-0.796,0.309-1.653,0.309-2.587
+				c0-7.289,0-14.579,0-21.869C169.496,126.855,145.717,128.667,120.905,130.892z"
+              />
+            </g>
+          </g>
+        </g>
+        <g id="Shape_11_1_" enable-background="new    ">
+          <g id="Shape_11">
+            <g>
+              <path
+                fill="#008ACC"
+                d="M89.134,133.599v43.777c0.09,0.052,0.181,0.104,0.271,0.156c4.147,2.405,8.292,4.81,12.438,7.214v-52.151
+				C97.567,132.961,93.318,133.304,89.134,133.599z M95.174,173.818c-1.316,0-2.383-1.069-2.383-2.388s1.067-2.387,2.383-2.387
+				c1.316,0,2.383,1.068,2.383,2.387S96.49,173.818,95.174,173.818z M55.422,134.383v17.674c0,3.5,1.89,6.864,4.909,8.619
+				c3.248,1.881,6.493,3.765,9.74,5.646v-31.78C64.941,134.655,60.027,134.622,55.422,134.383z M62.923,155.2
+				c-1.316,0-2.383-1.069-2.383-2.388s1.067-2.387,2.383-2.387c1.315,0,2.382,1.068,2.382,2.387S64.238,155.2,62.923,155.2z"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+      <h1 class="text-primary dark text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
       </h1>
-      <div class="badge badge-primary badge-outline dark:invert mt-1 text-sm md:!mt-8">
+      <div class="badge badge-primary badge-outline dark mt-1 text-sm md:!mt-8">
         {{ $t('pages.tag') }}
       </div>
     </div>
@@ -67,10 +115,18 @@ const chainStore = useBlockchain()
       <progress class="progress progress-info w-80 h-1"></progress>
     </div>
 
-    <div class="flex items-center rounded-lg bg-base-100  border border-gray-200 dark:border-gray-700 mt-10">
-      <Icon icon="mdi:magnify" class="text-2xl text-gray-400 ml-3"/>
-      <input :placeholder="$t('pages.search_placeholder')" class="px-4 h-10 bg-transparent flex-1 outline-none text-base" v-model="keywords" />
-      <div class="px-4 text-base hidden md:!block">{{ chains.length }}/{{ dashboard.length }}</div>
+    <div
+      class="flex items-center rounded-lg bg-base-100 border border-gray-200 dark:border-gray-700 mt-10"
+    >
+      <Icon icon="mdi:magnify" class="text-2xl text-gray-400 ml-3" />
+      <input
+        :placeholder="$t('pages.search_placeholder')"
+        class="px-4 h-10 bg-transparent flex-1 outline-none text-base"
+        v-model="keywords"
+      />
+      <div class="px-4 text-base hidden md:!block">
+        {{ chains.length }}/{{ dashboard.length }}
+      </div>
     </div>
 
     <div
@@ -86,7 +142,7 @@ const chainStore = useBlockchain()
 </template>
 
 <style scoped>
- .logo path{
+.logo path {
   fill: #171d30;
 }
 </style>
