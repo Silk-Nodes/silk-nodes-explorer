@@ -153,6 +153,7 @@ const list = computed(() => {
       'rhino',
       'blockpane',
       'Golden Ratio',
+      'Defier',
     ];
     /*chainStore.current?.endpoints?.rest?.map(
     (x) => x.provider

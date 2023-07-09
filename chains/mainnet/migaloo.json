@@ -1,12 +1,12 @@
 {
-  "chain_name": "Migaloo",
+  "chain_name": "migaloo",
   "coingecko": "white-whale",
   "api": [
     "https://migaloo-api.polkachu.com",
     "https://api.whitewhale.nodestake.top"
   ],
   "rpc": [
-    "https://migaloo-rpc.polkachu.com/:443",
+    "https://migaloo-rpc.polkachu.com:443",
     "https://rpc.whitewhale.nodestake.top"
   ],
   "snapshot_provider": "",
