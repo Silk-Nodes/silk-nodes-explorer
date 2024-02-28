@@ -1,0 +1,34 @@
+{
+  "chain_name": "dydx",
+  "coingecko": "dydx-chain",
+  "api": [
+    "https://dydx-api.polkachu.com/",
+    "https://dydx-api.lavenderfive.com/"
+  ],
+  "rpc": [
+    "https://dydx-rpc.polkachu.com/",
+    "https://dydx-rpc.lavenderfive.com/"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.4",
+  "coin_type": "118",
+  "min_tx_fee": "40000000000",
+  "addr_prefix": "dydx",
+  "logo": "/logos/dydx.svg",
+  "assets": [
+    {
+      "base": "adydx",
+      "symbol": "dydx",
+      "exponent": "18",
+      "coingecko_id": "dydx-chain",
+      "logo": "/logos/dydx.svg"
+    },
+    {
+      "base": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+      "symbol": "USDC",
+      "exponent": 6,
+      "coingecko_id": "usd-coin",
+      "logo": "/logos/usdc.svg"
+    }
+  ]
+}

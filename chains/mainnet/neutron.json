@@ -1,5 +1,6 @@
 {
   "chain_name": "neutron",
+  "coingecko": "neutron-3",
   "api": [
     "https://neutron-api.polkachu.com/",
     "https://api.neutron.nodestake.top"
@@ -31,7 +32,7 @@
       "base": "untrn",
       "symbol": "NTRN",
       "exponent": "6",
-      "coingecko_id": "neutron",
+      "coingecko_id": "neutron-3",
       "logo": "/logos/neutron.svg"
     }
   ],

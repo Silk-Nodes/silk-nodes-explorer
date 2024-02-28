@@ -1,5 +1,6 @@
 {
   "chain_name": "stride",
+  "coingecko": "stride",
   "api": ["https://stride-api.polkachu.com", "https://stride.api.kjnodes.com"],
   "rpc": [
     "https://stride-rpc.polkachu.com:443",

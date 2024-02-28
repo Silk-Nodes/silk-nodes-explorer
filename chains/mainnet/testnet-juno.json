@@ -1,8 +1,8 @@
 {
   "chain_name": "testnet-juno",
   "coingecko": "juno-network",
-  "api": ["https://juno-testnet-api.polkachu.com", "https://uni-api.reece.sh"],
-  "rpc": ["https://juno-testnet-rpc.polkachu.com", "https://uni-rpc.reece.sh"],
+  "api": ["https://juno-testnet-api.polkachu.com"],
+  "rpc": ["https://juno-testnet-rpc.polkachu.com"],
   "snapshot_provider": "",
   "sdk_version": "0.45.8",
   "coin_type": "118",

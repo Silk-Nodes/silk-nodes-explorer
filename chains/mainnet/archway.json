@@ -1,6 +1,6 @@
 {
   "chain_name": "archway",
-  "coingecko": "",
+  "coingecko": "archway",
   "api": ["https://api.mainnet.archway.io", "https://archway.api.silknodes.io"],
   "rpc": ["https://rpc.mainnet.archway.io", "https://archway.rpc.silknodes.io"],
   "snapshot_provider": "https://snapshots.archway.tech/",
@@ -14,7 +14,7 @@
       "base": "aarch",
       "symbol": "ARCH",
       "exponent": "18",
-      "coingecko_id": "",
+      "coingecko_id": "archway",
       "logo": "/logos/archway-round.png"
     }
   ]

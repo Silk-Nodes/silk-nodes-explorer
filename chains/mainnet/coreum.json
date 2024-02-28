@@ -7,7 +7,7 @@
   ],
   "rpc": ["https://coreum.rpc.silknodes.io", "https://rpc-coreum.ecostake.com"],
   "snapshot_provider": "",
-  "sdk_version": "0.45.14",
+  "sdk_version": "0.47.5",
   "coin_type": "990",
   "min_tx_fee": "250000",
   "addr_prefix": "coreum",

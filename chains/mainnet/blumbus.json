@@ -1,8 +1,8 @@
 {
-  "chain_name": "dymension",
+  "chain_name": "blumbus",
   "coingecko": "dymension",
-  "api": ["https://dymension.api.silknodes.io/"],
-  "rpc": ["https://dymension.rpc.silknodes.io:443"],
+  "api": ["https://blumbus.api.silknodes.io"],
+  "rpc": ["https://blumbus.rpc.silknodes.io:443"],
   "snapshot_provider": "",
   "coin_type": 60,
   "sdk_version": "0.46.10",

@@ -1,0 +1,21 @@
+{
+  "chain_name": "sge",
+  "coingecko": "six-sigma",
+  "api": ["https://sge-api.polkachu.com/", "https://sge-api.lavenderfive.com/"],
+  "rpc": ["https://sge-rpc.polkachu.com/", "https://sge-rpc.lavenderfive.com/"],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.14",
+  "coin_type": "118",
+  "min_tx_fee": "3000",
+  "addr_prefix": "sge",
+  "logo": "/logos/sge.svg",
+  "assets": [
+    {
+      "base": "usge",
+      "symbol": "SGE",
+      "exponent": "6",
+      "coingecko_id": "six-sigma",
+      "logo": "/logos/sge.svg"
+    }
+  ]
+}

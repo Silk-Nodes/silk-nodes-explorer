@@ -1,14 +1,13 @@
 {
-  "chain_name": "dymension",
+  "chain_name": "testnet-dymension",
   "coingecko": "dymension",
-  "api": ["https://dymension.api.silknodes.io/"],
-  "rpc": ["https://dymension.rpc.silknodes.io:443"],
+  "api": ["https://froopyland-public.api.silknodes.io/"],
+  "rpc": ["https://froopyland-public.rpc.silknodes.io:443"],
   "snapshot_provider": "",
   "coin_type": 60,
   "sdk_version": "0.46.10",
   "addr_prefix": "dym",
   "logo": "/logos/dymensionRound.png",
-  "min_tx_fee": "4000000000000000",
   "keplr_features": [
     "ibc-transfer",
     "ibc-go",
@@ -17,7 +16,7 @@
   ],
   "assets": [
     {
-      "base": "adym",
+      "base": "udym",
       "symbol": "DYM",
       "exponent": 18,
       "coingecko_id": "dymension",

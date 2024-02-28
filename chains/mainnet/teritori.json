@@ -1,5 +1,6 @@
 {
   "chain_name": "teritori",
+  "coingecko": "teritori",
   "api": [
     "https://rest.mainnet.teritori.com",
     "https://teritori.api.silknodes.io"
